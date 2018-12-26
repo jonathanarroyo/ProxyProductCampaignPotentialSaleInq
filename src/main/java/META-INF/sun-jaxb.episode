@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2018.12.26 a las 03:12:53 PM COT 
+
+  -->
+  <bindings xmlns:tns="urn://bancodebogota.com/accounts/Product/service/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.bancodebogota.accounts.product.service"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:getCampPotentialSaleRequest">
+      <class ref="com.bancodebogota.accounts.product.service.GetCampPotentialSaleRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getCampPotentialSaleResponse">
+      <class ref="com.bancodebogota.accounts.product.service.GetCampPotentialSaleResponse"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="urn://bancodebogota.com/accounts/Product/event/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.bancodebogota.accounts.product.event"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:CampPotentialSaleInqRq_Type">
+      <class ref="com.bancodebogota.accounts.product.event.CampPotentialSaleInqRqType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CampPotentialSaleInqRs_Type">
+      <class ref="com.bancodebogota.accounts.product.event.CampPotentialSaleInqRsType"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="urn://bancodebogota.com/ifx/base/v1/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.bancodebogota.ifx.base.v1"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:AcctDomainList_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.AcctDomainListType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RefInfo_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.RefInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SelRangeChkNum_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.SelRangeChkNumType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:IntRateInfo_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.IntRateInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CurrencyAmount_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.CurrencyAmountType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Product_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.ProductType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ProductList_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.ProductListType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ContactInfo_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.ContactInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PhoneNum_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.PhoneNumType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PostAddr_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.PostAddrType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ProductStatus_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.ProductStatusType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Status_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.StatusType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AdditionalStatus_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.AdditionalStatusType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AsyncRsInfo_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.AsyncRsInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SelRangeDt_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.SelRangeDtType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:NetworkTrnInfo_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.NetworkTrnInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CreditInfo_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.CreditInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompositeCurAmt_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.CompositeCurAmtType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CompositeCurAmtList">
+      <class ref="com.bancodebogota.ifx.base.v1.CompositeCurAmtList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SvcRq_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.SvcRqType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CustId_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.CustIdType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BaseEnvr_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.BaseEnvrType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:FlagList">
+      <class ref="com.bancodebogota.ifx.base.v1.FlagList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Flag_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.FlagType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BillSummAmt_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.BillSummAmtType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Term_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.TermType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SvcRs_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.SvcRsType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PersonClient_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.PersonClientType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PersonName_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.PersonNameType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DriversLicense_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.DriversLicenseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OtherIdentDoc_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.OtherIdentDocType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ResidencePlace_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.ResidencePlaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FinantialInfo_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.FinantialInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DeathCertificateInfo_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.DeathCertificateInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeneralException_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.GeneralExceptionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PersonalIdent_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.PersonalIdentType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PersonInfo_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.PersonInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GovIssueIdent_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.GovIssueIdentType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BankInfo_Type">
+      <class ref="com.bancodebogota.ifx.base.v1.BankInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Severity_Type">
+      <typesafeEnumClass ref="com.bancodebogota.ifx.base.v1.SeverityType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TermUnits_Type">
+      <typesafeEnumClass ref="com.bancodebogota.ifx.base.v1.TermUnitsType"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="urn://bancodebogota.com/customers/arrangement/v1/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.bancodebogota.customers.arrangement.v1"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:CampaignInfoList_Type">
+      <class ref="com.bancodebogota.customers.arrangement.v1.CampaignInfoListType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CampaignInfo_Type">
+      <class ref="com.bancodebogota.customers.arrangement.v1.CampaignInfoType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CampaignRuleList_Type">
+      <class ref="com.bancodebogota.customers.arrangement.v1.CampaignRuleListType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CampaignRule_Type">
+      <class ref="com.bancodebogota.customers.arrangement.v1.CampaignRuleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CampAccInfo_Type">
+      <class ref="com.bancodebogota.customers.arrangement.v1.CampAccInfoType"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="http://Messaging/customers/entities/arrangement" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="messaging.customers.entities.arrangement"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:CampPotentialSaleInq_Type">
+      <class ref="messaging.customers.entities.arrangement.CampPotentialSaleInqType"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="http://Messaging/customers/entities/product" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="messaging.customers.entities.product"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:ProductPotentialSale_Type">
+      <class ref="messaging.customers.entities.product.ProductPotentialSaleType"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="urn://bancodebogota.com/security/involvedparty/v1/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.bancodebogota.security.involvedparty.v1"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:CustId_Type">
+      <class ref="com.bancodebogota.security.involvedparty.v1.CustIdType"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="urn://bancodebogota.com/creditcard/product/v1/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.bancodebogota.creditcard.product.v1"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:AccountStatus_Type">
+      <class ref="com.bancodebogota.creditcard.product.v1.AccountStatusType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Account_Type">
+      <class ref="com.bancodebogota.creditcard.product.v1.AccountType"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="urn://bancodebogota.com/customers/involvedparty/v1/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.bancodebogota.customers.involvedparty.v1"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:LevelRqNode_Type">
+      <class ref="com.bancodebogota.customers.involvedparty.v1.LevelRqNodeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CommercialInfoParentNode_Type">
+      <class ref="com.bancodebogota.customers.involvedparty.v1.CommercialInfoParentNodeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CommercialInfoNode_Type">
+      <class ref="com.bancodebogota.customers.involvedparty.v1.CommercialInfoNodeType"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="urn://bancodebogota.com/customers/condition/v1/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.bancodebogota.customers.condition.v1"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:Flag_Type">
+      <class ref="com.bancodebogota.customers.condition.v1.FlagType"/>
+    </bindings>
+  </bindings>
+</bindings>
